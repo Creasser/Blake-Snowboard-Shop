@@ -51,8 +51,23 @@ function createNewBoard(e){
         'price': e.target.price.value,
         'quantity': e.target.quantity.value
     }
-    addBoardToDOM(newBoard)
+    submitNewBoardToDb(newBoard)
 
     form.reset()
 }
+
+//make a function that will POST the new board to the db.json
+function submitNewBoardToDb(newBoard){
+    fetch('http://localhost:3000/snowboards',{
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json'
+        },
+        body: JSON.stringify(newBoard)
+    })
+    .then(resp => resp.json())
+    .then(board => addBoardToDOM(board))
+}
+
 //Quantity: check to see if the quantity is 0, if it is send a POST request that changes the quantity to sold out, if it is not zero then send a POST request that will decrease the quantity by 1
