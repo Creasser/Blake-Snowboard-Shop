@@ -30,10 +30,10 @@ function addBoardToDOM(board){
     let price = document.createElement('div')
     price.textContent = board.price
     price.className = 'board-info'
-    let type = document.createElement('div')
-    type.textContent = board.type
-    type.className = 'board-info'
-    card.append(img, brand, price, type)
+    let quantity = document.createElement('div')
+    quantity.textContent = `Quantity: ${board.quantity}`
+    quantity.className = 'board-info'
+    card.append(img, brand, price, quantity)
     boardContainer.append(card)
 }
 
