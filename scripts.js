@@ -44,9 +44,34 @@ function addBoardToDOM(board){
     let buy = document.getElementById(`${board.id}`)
     buy.addEventListener('click', () => {
         board.quantity -= 1
+        if (board.quantity === 0){
+            card.querySelector('.quant').textContent = 'Out Of Stock'
+            buyBtn.disabled = true
+        }else{
         card.querySelector('.quant').textContent = `Quantity: ${board.quantity}`
+        }
+        //sendUpdateToServer(board)
     })
 }
+
+// sendUpdateToServer(board){
+//     if (board.quantity === 0){
+
+//     }else{
+//         fetch(`http://localhost:3000/snowboards/${board.id}`,{
+//             method: 'PATCH',
+//             headers: {
+//                 'Content-Type': 'application/json',
+//                 Accept: 'application.json'
+//             },
+//             body:JSON.stringify(board)
+//         })
+//         .then(resp => resp.json())
+//         .then(data => console.log(data))
+//     }
+// }
+
+//Quantity: check to see if the quantity is 0, if it is send a POST request that changes the quantity to sold out, if it is not zero then send a POST request that will decrease the quantity by 1
 
 // build a function that will get all the info from the form and submit it to the db.json 
 
@@ -80,4 +105,3 @@ function submitNewBoardToDb(newBoard){
     .then(board => addBoardToDOM(board))
 }
 
-//Quantity: check to see if the quantity is 0, if it is send a POST request that changes the quantity to sold out, if it is not zero then send a POST request that will decrease the quantity by 1
