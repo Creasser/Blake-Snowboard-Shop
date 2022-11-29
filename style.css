@@ -58,3 +58,8 @@ body {
     text-align: center;
     padding: 5px;
 }
+
+.board-img {
+    height: 250px;
+    width: 250px;
+}

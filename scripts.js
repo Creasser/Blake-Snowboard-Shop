@@ -24,6 +24,7 @@ function addBoardToDOM(board){
     card.className = 'card'
     let img = document.createElement('img')
     img.src = board.image
+    img.className = 'board-img'
     let brand = document.createElement('div')
     brand.textContent = board.brand
     brand.className = 'board-info'
@@ -44,5 +45,14 @@ form.addEventListener('submit', createNewBoard)
 
 function createNewBoard(e){
     e.preventDefault()
+    let newBoard = {
+        'brand': e.target.name.value,
+        'image': e.target.image.value,
+        'price': e.target.price.value,
+        'quantity': e.target.quantity.value
+    }
+    addBoardToDOM(newBoard)
+
+    form.reset()
 }
 //Quantity: check to see if the quantity is 0, if it is send a POST request that changes the quantity to sold out, if it is not zero then send a POST request that will decrease the quantity by 1
