@@ -18,7 +18,7 @@
             "id": 3,
             "brand": "Lib Tech",
             "image": "https://images.evo.com/imgp/250/220792/899471/lib-tech-dynamo-c3-snowboard-2023-.jpg",
-            "price": "$600",
+            "price": "$700",
             "type": "Freeride"
         },
         {
@@ -30,24 +30,24 @@
         },
         {
             "id": 5,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Never Summer",
+            "image": "https://images.evo.com/imgp/250/227190/931236/never-summer-lady-fr-snowboard-women-s-2023-.jpg",
+            "price": "$590",
+            "type": "All-Mountain"
         },
         {
             "id": 6,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Yes.",
+            "image": "https://images.evo.com/imgp/250/221795/914551/yes-warca-uninc-jps-snowboard-2023-.jpg",
+            "price": "$610",
+            "type": "Powder"
         },
         {
             "id": 7,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Rome",
+            "image": "https://images.evo.com/imgp/250/226680/913973/rome-stale-fish-snowboard-2023-.jpg",
+            "price": "$470",
+            "type": "Freestyle"
         }
     ]
 }
