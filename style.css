@@ -48,3 +48,9 @@ body {
     margin: 10px;
     border: 2px solid;
 }
+
+.board-info {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
