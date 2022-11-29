@@ -29,8 +29,9 @@ body {
 }
 
 #submit-button {
-    height: 30px;
+    height: 37px;
     width: -webkit-fill-available;
     border-radius: 5px;
     border: 2px solid black;
+    font-size: larger;
 }
