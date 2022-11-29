@@ -37,6 +37,11 @@ body {
     font-size: larger;
 }
 
+#submit-button:hover {
+    background-color: black;
+    color: white;
+}
+
 .board-container {
     display: flex;
     flex-wrap: wrap;
