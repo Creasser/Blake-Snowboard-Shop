@@ -5,49 +5,56 @@
       "brand": "Jones",
       "image": "https://images.evo.com/imgp/250/206647/818509/clone.jpg",
       "price": "$600",
-      "quantity": "4"
+      "quantity": 9
     },
     {
       "id": 2,
       "brand": "Salomon",
       "image": "https://images.evo.com/imgp/250/221478/921048/salomon-pulse-snowboard-2023-.jpg",
       "price": "$350",
-      "quantity": "2"
+      "quantity": 10
     },
     {
       "id": 3,
       "brand": "Lib Tech",
       "image": "https://images.evo.com/imgp/250/220792/899471/lib-tech-dynamo-c3-snowboard-2023-.jpg",
       "price": "$700",
-      "quantity": "3"
+      "quantity": 10
     },
     {
       "id": 4,
       "brand": "Arbor",
       "image": "https://images.evo.com/imgp/250/221375/901334/arbor-swoon-camber-snowboard-women-s-2023-.jpg",
       "price": "$550",
-      "quantity": "1"
+      "quantity": 10
     },
     {
       "id": 5,
       "brand": "Never Summer",
       "image": "https://images.evo.com/imgp/250/227190/931236/never-summer-lady-fr-snowboard-women-s-2023-.jpg",
       "price": "$590",
-      "quantity": "6"
+      "quantity": 10
     },
     {
       "id": 6,
       "brand": "Yes.",
       "image": "https://images.evo.com/imgp/250/221795/914551/yes-warca-uninc-jps-snowboard-2023-.jpg",
       "price": "$610",
-      "quantity": "8"
+      "quantity": 10
     },
     {
       "id": 7,
       "brand": "Rome",
       "image": "https://images.evo.com/imgp/250/226680/913973/rome-stale-fish-snowboard-2023-.jpg",
       "price": "$470",
-      "quantity": "7"
+      "quantity": 10
+    },
+    {
+      "brand": "Burton",
+      "image": "https://www.burton.com/static/product/W23/13218108000_1.png",
+      "price": "$450",
+      "quantity": 10,
+      "id": 8
     }
   ]
 }
