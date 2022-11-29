@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', fetchSnowboards)
 function fetchSnowboards(){
     fetch('http://localhost:3000/snowboards')
     .then(resp => resp.json())
-    .then(boardData => console.log(boardData))
+    .then(boardData => initialize(boardData))
 }
 
 //build an initialize function that will send the board data to another function that will build the cards for each board
@@ -17,6 +17,7 @@ function initialize(boardData){
 }
 
 //build a function that will add ONE board to the DOM
+let boardContainer = document.querySelector('.board-container')
 
 function addBoardToDOM(board){
     let card = document.createElement('div')
@@ -28,6 +29,10 @@ function addBoardToDOM(board){
     brand.className = 'board-info'
     let price = document.createElement('div')
     price.textContent = board.price
+    price.className = 'board-info'
     let type = document.createElement('div')
     type.textContent = board.type
+    type.className = 'board-info'
+    card.append(img, brand, price, type)
+    boardContainer.append(card)
 }
