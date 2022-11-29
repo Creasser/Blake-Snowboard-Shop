@@ -17,6 +17,7 @@ body {
 .form-container{
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .input-text {
@@ -34,4 +35,14 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     font-size: larger;
+}
+
+.board-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    
 }
