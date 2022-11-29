@@ -2,31 +2,31 @@
     "snowboards": [
         {
             "id": 1,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Jones Aviator 2.0",
+            "image": "https://images.evo.com/imgp/250/206647/818509/clone.jpg",
+            "price": "$600",
+            "type": "All-Mountain"
         },
         {
             "id": 2,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Salomon",
+            "image": "https://images.evo.com/imgp/250/221478/921048/salomon-pulse-snowboard-2023-.jpg",
+            "price": "$350",
+            "type": "All-Mountain"
         },
         {
             "id": 3,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Lib Tech",
+            "image": "https://images.evo.com/imgp/250/220792/899471/lib-tech-dynamo-c3-snowboard-2023-.jpg",
+            "price": "$600",
+            "type": "Freeride"
         },
         {
             "id": 4,
-            "brand": "placeholder",
-            "image": "placeholder",
-            "price": "placeholder",
-            "type": "placeholder"
+            "brand": "Arbor",
+            "image": "https://images.evo.com/imgp/250/221375/901334/arbor-swoon-camber-snowboard-women-s-2023-.jpg",
+            "price": "$550",
+            "type": "Freeride"
         },
         {
             "id": 5,
