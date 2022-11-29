@@ -1,0 +1,53 @@
+{
+    "snowboards": [
+        {
+            "id": 1,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        },
+        {
+            "id": 2,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        },
+        {
+            "id": 3,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        },
+        {
+            "id": 4,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        },
+        {
+            "id": 5,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        },
+        {
+            "id": 6,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        },
+        {
+            "id": 7,
+            "brand": "placeholder",
+            "image": "placeholder",
+            "price": "placeholder",
+            "type": "placeholder"
+        }
+    ]
+}
