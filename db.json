@@ -2,7 +2,7 @@
     "snowboards": [
         {
             "id": 1,
-            "brand": "Jones Aviator 2.0",
+            "brand": "Jones",
             "image": "https://images.evo.com/imgp/250/206647/818509/clone.jpg",
             "price": "$600",
             "type": "All-Mountain"
