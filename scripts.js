@@ -37,5 +37,12 @@ function addBoardToDOM(board){
     boardContainer.append(card)
 }
 
+// build a function that will get all the info from the form and submit it to the db.json 
 
+let form = document.querySelector('form')
+form.addEventListener('submit', createNewBoard)
+
+function createNewBoard(e){
+    e.preventDefault()
+}
 //Quantity: check to see if the quantity is 0, if it is send a POST request that changes the quantity to sold out, if it is not zero then send a POST request that will decrease the quantity by 1

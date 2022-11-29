@@ -49,6 +49,10 @@ body {
     border: 2px solid;
 }
 
+.card:hover {
+    background-color: aqua;
+}
+
 .board-info {
     font-size: 25px;
     text-align: center;
