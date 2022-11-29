@@ -54,11 +54,7 @@ body {
     border: 2px solid;
 }
 
-.card:hover {
-    background-color: aqua;
-}
-
-.board-info {
+.board-info, .quant {
     font-size: 25px;
     text-align: center;
     padding: 5px;
@@ -67,4 +63,15 @@ body {
 .board-img {
     height: 250px;
     width: 250px;
+}
+
+.buy-btn {
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.buy-btn:hover {
+    background-color: black;
+    color: white;
 }

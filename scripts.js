@@ -33,9 +33,19 @@ function addBoardToDOM(board){
     price.className = 'board-info'
     let quantity = document.createElement('div')
     quantity.textContent = `Quantity: ${board.quantity}`
-    quantity.className = 'board-info'
-    card.append(img, brand, price, quantity)
+    quantity.className = 'quant'
+    let buyBtn = document.createElement('button')
+    buyBtn.textContent = 'Buy Now'
+    buyBtn.id = board.id
+    buyBtn.className = 'buy-btn'
+    card.append(img, brand, price, quantity, buyBtn)
     boardContainer.append(card)
+
+    let buy = document.getElementById(`${board.id}`)
+    buy.addEventListener('click', () => {
+        board.quantity -= 1
+        card.querySelector('.quant').textContent = `Quantity: ${board.quantity}`
+    })
 }
 
 // build a function that will get all the info from the form and submit it to the db.json 
