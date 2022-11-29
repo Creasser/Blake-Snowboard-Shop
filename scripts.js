@@ -36,3 +36,6 @@ function addBoardToDOM(board){
     card.append(img, brand, price, type)
     boardContainer.append(card)
 }
+
+
+//Quantity: check to see if the quantity is 0, if it is send a POST request that changes the quantity to sold out, if it is not zero then send a POST request that will decrease the quantity by 1

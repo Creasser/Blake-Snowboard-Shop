@@ -5,49 +5,49 @@
             "brand": "Jones",
             "image": "https://images.evo.com/imgp/250/206647/818509/clone.jpg",
             "price": "$600",
-            "type": "All-Mountain"
+            "quantity": "4"
         },
         {
             "id": 2,
             "brand": "Salomon",
             "image": "https://images.evo.com/imgp/250/221478/921048/salomon-pulse-snowboard-2023-.jpg",
             "price": "$350",
-            "type": "All-Mountain"
+            "quantity": "2"
         },
         {
             "id": 3,
             "brand": "Lib Tech",
             "image": "https://images.evo.com/imgp/250/220792/899471/lib-tech-dynamo-c3-snowboard-2023-.jpg",
             "price": "$700",
-            "type": "Freeride"
+            "quantity": "3"
         },
         {
             "id": 4,
             "brand": "Arbor",
             "image": "https://images.evo.com/imgp/250/221375/901334/arbor-swoon-camber-snowboard-women-s-2023-.jpg",
             "price": "$550",
-            "type": "Freeride"
+            "quantity": "1"
         },
         {
             "id": 5,
             "brand": "Never Summer",
             "image": "https://images.evo.com/imgp/250/227190/931236/never-summer-lady-fr-snowboard-women-s-2023-.jpg",
             "price": "$590",
-            "type": "All-Mountain"
+            "quantity": "6"
         },
         {
             "id": 6,
             "brand": "Yes.",
             "image": "https://images.evo.com/imgp/250/221795/914551/yes-warca-uninc-jps-snowboard-2023-.jpg",
             "price": "$610",
-            "type": "Powder"
+            "quantity": "8"
         },
         {
             "id": 7,
             "brand": "Rome",
             "image": "https://images.evo.com/imgp/250/226680/913973/rome-stale-fish-snowboard-2023-.jpg",
             "price": "$470",
-            "type": "Freestyle"
+            "quantity": "7"
         }
     ]
 }

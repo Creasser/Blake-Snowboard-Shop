@@ -44,5 +44,7 @@ body {
 }
 
 .card {
-    
+    background: gray;
+    margin: 10px;
+    border: 2px solid;
 }
