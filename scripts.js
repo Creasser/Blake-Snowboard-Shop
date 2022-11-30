@@ -9,14 +9,12 @@ function fetchSnowboards(){
     .then(boardData => initialize(boardData))
 }
 
-//build an initialize function that will send the board data to another function that will build the cards for each board
 function initialize(boardData){
     boardData.forEach(board => {
         addBoardToDOM(board)
     });
 }
 
-//build a function that will add ONE board to the DOM
 let boardContainer = document.querySelector('.board-container')
 
 function addBoardToDOM(board){
@@ -69,9 +67,6 @@ function sendUpdateToServer(board){
         })
     }
 
-
-// build a function that will get all the info from the form and submit it to the db.json 
-
 let form = document.querySelector('form')
 form.addEventListener('submit', createNewBoard)
 
@@ -88,7 +83,6 @@ function createNewBoard(e){
     form.reset()
 }
 
-//make a function that will POST the new board to the db.json
 function submitNewBoardToDb(newBoard){
     fetch('http://localhost:3000/snowboards',{
         method: 'POST',
