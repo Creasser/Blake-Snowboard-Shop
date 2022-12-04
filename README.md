@@ -9,3 +9,6 @@ This project uses three distinct event listeners. Those being:
 1. 'DOMContentLoaded'
 2. 'Click'
 3. 'Submit'
+
+### Array Interation Method
+ForEach is used to loop over the db.json file informatation and add it to the DOM.
