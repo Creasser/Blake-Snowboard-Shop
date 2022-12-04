@@ -6,6 +6,6 @@ This is my Flatiron School phase 1 project! This project uses JavaScript, HTML, 
 ## Project Requirements
 ### Event Listeners
 This project uses three distinct event listeners. Those being:
-    1. 'DOMContentLoaded'
-    2. 'Click'
-    3. 'Submit'
+1. 'DOMContentLoaded'
+2. 'Click'
+3. 'Submit'
