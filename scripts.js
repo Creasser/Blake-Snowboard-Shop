@@ -8,7 +8,7 @@ function fetchSnowboards(){
     .then(resp => resp.json())
     .then(boardData => initialize(boardData))
 }
-
+//Using forEach to loop through the board data and send each individual board through the addBoardToDom function
 function initialize(boardData){
     boardData.forEach(board => {
         addBoardToDOM(board)
@@ -56,6 +56,7 @@ function addBoardToDOM(board){
     })
 }
 
+// PATCH method used to send the updated board quantity to the server
 function sendUpdateToServer(board){
         fetch(`http://localhost:3000/snowboards/${board.id}`,{
             method: 'PATCH',
@@ -67,6 +68,7 @@ function sendUpdateToServer(board){
         })
     }
 
+//used submit event listener 
 let form = document.querySelector('form')
 form.addEventListener('submit', createNewBoard)
 
@@ -83,6 +85,7 @@ function createNewBoard(e){
     form.reset()
 }
 
+// use post method to send new boards submitted through the form to the DB
 function submitNewBoardToDb(newBoard){
     fetch('http://localhost:3000/snowboards',{
         method: 'POST',
